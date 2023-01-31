@@ -24,6 +24,8 @@ public class Clase6 {
 		driver = new ChromeDriver(options);
 		driver.get(url);
 		driver.manage().window().maximize();
+		
+		System.out.println("Linea adicional para subir a Github");
 	}
 	
 	@Test
